@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="49px" height="49px" viewBox="0 0 49 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="상조회사" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="main_01/login_01/mypage_03" transform="translate(-1437.000000, -678.000000)">
+            <g id="Group" transform="translate(1437.000000, 678.000000)">
+                <rect id="Rectangle-Copy-47" fill="#87D003" x="0" y="0" width="49" height="49" rx="24.5"></rect>
+                <path d="M25,13 C17.2679615,13 11,17.7817528 11,23.6802422 C11,27.4937399 13.6204231,30.8399118 17.5622308,32.729403 C17.3477885,33.4449792 16.1841731,37.3328478 16.1378654,37.6382767 C16.1378654,37.6382767 16.11,37.8677717 16.2635962,37.9552976 C16.4171923,38.0428234 16.5978462,37.9748346 16.5978462,37.9748346 C17.0383077,37.9153118 21.7055577,34.7432798 22.5133846,34.1924659 C23.3204038,34.3030455 24.1513846,34.3604843 25,34.3604843 C32.7320385,34.3604843 39,29.5788618 39,23.6802422 C39,17.7817528 32.7320385,13 25,13 Z" id="Path" fill="#000000"></path>
+                <text id="SMS" font-family="NanumSquareEB, NanumSquare" font-size="11" font-weight="600" line-spacing="13" letter-spacing="-0.3972222" fill="#FFFFFF">
+                    <tspan x="14" y="26">SMS</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

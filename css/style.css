@@ -14,6 +14,7 @@
            height: 630px;
            position: relative;
            background-image: url(../img/gr.png);
+    background-color:rgba(0,0,0,0.3)
 }
 
 
@@ -49,16 +50,16 @@
 
 }
 
-.main_bg_text h1 {font-size: 22px;
+.main_bg_text h2 {font-size: 22px;
                   line-height: 28px;
                   font-weight: 500;
 }
-.main_bg_text h2 {font-size: 20px;
+.main_bg_text h3 {font-size: 20px;
                   line-height: 29px;
                   font-weight: 400;
 }
 
-.main_bg_text h2 span {font-size: 16px;
+.main_bg_text h3 span {font-size: 16px;
                        font-weight: 200;
 }
 
@@ -76,16 +77,16 @@
 
     }
 
-    .main_bg_text h1 {font-size: 50px;
+    .main_bg_text h2 {font-size: 50px;
                       line-height: 65px;
                       font-weight: 400;
     }
-    .main_bg_text h2 {font-size: 20px;
+    .main_bg_text h3 {font-size: 20px;
                       line-height: 29px;
                       font-weight: 400;
     }
 
-    .main_bg_text h2 span {font-size: 16px;
+    .main_bg_text h3 span {font-size: 16px;
                            font-weight: 200;
     }
 
@@ -232,9 +233,16 @@
              font-weight: 500;
              padding-bottom: 30px;
 }
+.login_join p {display: inline-block;
+}
 .login_join_idps ul li {display: inline-block;
                         padding-left: 10px;
 
+}
+.checkbox_layout {display: inline-block;}
+
+.checkbox_layout_text {display: inline-block;
+                       padding-left: 5px;
 }
 
 .login_fin {width: 100%;
@@ -275,7 +283,8 @@
     .login_title h1 {font-size: 40px;}
 
     .login_join {padding-top: 10px;
-                 font-size: 14px;
+                 font-size: 15px;
+                 line-height: 20px;
                  font-weight: 500;
                  padding-bottom: 30px;
     }
@@ -291,8 +300,7 @@
 /*--------------my page------------*/
 /*------------------------------------*/
 
-.sub_main_mypage {padding-bottom: 50px;}
-.sub_main_mypage_bg {padding: 0 20px 0 20px;}
+.sub_main_mypage {padding-bottom: 100px;}
 .sub_mian_mypage_title {border-bottom: 2px solid #035fc8;
                         padding: 85px 0 70px 0;
                         position: relative;
@@ -302,67 +310,274 @@
                     right: 10px;
                     bottom: 10px;
 }
-.mypage_login_name img {padding-right: 10px;}
-.sub_main_mypage_layout {padding: 30px 20px;
-                         border-bottom: 1px solid #E0E0E0;
-                         height: 200px;
+/*------------------------------------*/
+.mypage_chart_bg {padding-top: 20px;}
+.mypage_chart {padding: 40px 30px;
+               border-bottom: 1px solid #333;
+               height: 220px
 }
-.sub_main_mypage_bn {border: none;}
+.mypage_chart_bd {padding: 40px 30px;
+                  height: 220px
+}
+.mypage_chart_tit {padding-bottom: 30px;}
+.mypage_chart_tit h2 {font-size: 25px;
+                  font-weight: 400;
+}
+.mypage_chart_text {margin-bottom: 10px;}
+.mypage_chart_text p {font-size: 16px;
+                      font-weight: 200;
+}
+
+/*------------------------------------*/
+.mypage_link_bg  {padding-top: 10px;}
+.mypage_link {text-align: center;
+              padding: 10px;
+}
 
 
-.sub_main_mypage_layout h2 {font-size: 20px;
-                            font-weight: 500;
-                            padding-bottom: 30px;
+.mypage_link_btn {width: 100%;
+                  padding: 60px 0;
+                  border:1px solid #2F8BF4;
 }
-.sub_main_mypage_layout h3 {font-size:16px;
+.mypage_link_btn h2 {font-size:30px;
+                     font-weight: 500;
+                     margin-top: 15px;
+}
+
+
+/*------------------회원정보------------------*/
+
+
+
+.page_idps_text {border-bottom: 2px solid #E0E0E0;
+                 padding: 30px 0;
+                 position: relative;
+}
+.page_idps_text_join {border-bottom: 2px solid #E0E0E0;
+                      padding: 25px 0;
+}
+.page_idps_text_icon {border-bottom: 2px solid #E0E0E0;
+                      padding: 15px 0;
+}
+
+.page_idps_tit_con ul li:last-child{border: none;}
+.page_idps .page_idps_tit_01 {padding: 30px 0 0 20px;}
+.page_idps .page_idps_tit_01_01 {padding: 30px 0 0 20px;
+
+}
+
+.page_idps .page_idps_tit_01_01 h2 {font-size: 25px;
+                                    font-weight: 500;
+}
+
+.page_idps .page_idps_tit_01 h2 {font-size: 25px;
+                                 font-weight: 500;
+                                 display: inline-block;
+}
+
+.page_idps .page_idps_tit_01 ul li{display: inline-block;
+                                   padding-left: 20px;
+                                   font-size: 16px;
+                                   font-weight: 500;
+}
+
+
+.page_idps .page_idps_tit_02 {width: 200px;
+                              margin-right: 20px;
+}
+
+.page_idps .page_idps_tit_05  {width: 220px;
+                               margin-right: 20px;
+}
+.page_idps .page_idps_tit_02 h3 {font-size: 20px;
+                                 font-weight: 500;
+                                 display: inline-block;
+}
+.page_idps .page_idps_tit_03 {width: 680px;}
+.page_idps .page_idps_tit_04 {width: 200px;}
+.page_idps .page_idps_tit_04 a {display: inline-block;}
+.page_idps .page_idps_tit_03 h3 {font-size: 16px;
+                                 font-weight: 200;
+                                 color: #333333;
+                                 display: inline-block;
+}
+.page_idps_section {border-bottom: 3px solid #E0E0E0;}
+.page_idps_section ul li:last-child{border: none;}
+
+.page_idps_text_btn {position: relative;}
+
+.btn_sm_line {position: absolute;
+              top: 25px;
+}
+.btn_sm_line2 {position: absolute;
+               top: 30px;
+               left: 430px
+}
+.btn_sm_line3 {position: absolute;
+               top: 45px;
+               left: 1120px
+}
+.btn_layout {margin-top: 60px;
+             text-align: center;
+}
+
+.page_idps_icon {display: inline-block;
+                 padding-right: 10px;
+}
+
+.page_idps_icon_text {display: inline-block;
+                      padding-bottom: 10px;
+}
+
+
+/*-----------------나의 장례보관함------------------*/
+.my_box_bg_all {border-bottom: 3px solid #E0E0E0;}
+.my_box_bg {padding: 100px 20px;}
+.my_box_bg_list li {border-bottom: 2px solid #E0E0E0;}
+.my_box_bg_list li a {display: block;}
+.my_box_bg_list li:last-child {border: none;}
+.my_box_text {display: inline-block;}
+.my_box_text h2 {font-size: 30px;
+                 font-weight: 400;
+                 padding-bottom: 10px;
+}
+.my_box_text p {font-size:20px;
+                font-weight: 200;
+                text-align: right;
+}
+.my_box_icon {padding-top: 10px;}
+.my_box_icon img {transform: rotate(-90deg);
+                  width: 35px;
+}
+.share_icon  {
+              position: absolute;
+              top: 25px;
+              right: 10px;
+}
+.share_icon h3 { display: inline-block;
+                 font-size: 18px;
+                 font-weight: 500;
+                 color: #035FC8;
+}
+.share_icon  ul li{display: inline-block;
+                   padding-left: 15px
+}
+
+/*-----------------나의 견적보관함------------------*/
+
+.my_money_box {position: relative;}
+.my_money_box_bg {background-color: #F8F8F8;
+                  padding: 20px;
+                  position: relative;
+                  height: 390px;
+                  width: 100%;
+                  margin-top: 140px;
+}
+.my_money_box_img {width: 100%;
+                   border: 1px solid red;
+                   height: 210px;
+}
+.my_money_box_text {margin-top: 20px;}
+
+.my_money_box_text p {font-size:16px;
+                      font-weight: 200;
+                      padding-bottom: 10px;
+}
+.my_money_box_text h2 {font-size:20px;
+                       font-weight: 400;
+}
+.my_money_box_icon {position: absolute;
+                    bottom: 20px;
+                    right: 20px;
+                    border-radius: 40px;
+                    border: 1px solid #035fc8;
+                    width: 40px;
+                    height: 40px;
+                    text-align: center;
+
+}
+.my_money_box_icon img {padding-top: 8px;}
+
+/*-----------------나의 장례보관함------------------*/
+.page_idps_box_album {padding: 30px 0;}
+.page_idps_box_album_section {position: relative;}
+
+.page_idps_box_album_section_box {background-color: #333;
+                                  height: 180px;
+}
+.page_idps_box_album_section_icon {position: absolute;
+                                   bottom: 10px;
+                                   right: 20px;
+}
+/*-----------------나의 견적보관함------------------*/
+.page_idps_box_moneybox {padding: 30px 0;}
+.page_idps_box_moneybox_section01 {padding: 30px 200px;}
+.page_idps_box_moneybox_section01 .moneybox {border: 2px solid #CFCFCF;
+                                             border-style : dashed;
+                                             padding: 60px 40px;
+                                             text-align: center;
+}
+
+.moneybox_all {border-bottom: 1px solid #E0E0E0;
+               padding-bottom: 10px;
+               padding-top: 10px;
+}
+.moneybox_all .moneybox_text {padding-top: 5px;}
+.moneybox_all .moneybox_text p {font-size: 14px;
+                                font-weight: 200;
+}
+
+.page_idps_tit_01 .subtext {display: inline-block;
+                            padding-left: 10px;
+                            font-size: 14px;
                             font-weight: 200;
 }
-.sub_main_mypage_layout p {font-size:16px;
-                            font-weight: 200;
-}
-.sub_main_mypage_box_bg {padding: 20px 0 10px 0;}
-.sub_main_mypage_box_bg_01 {padding: 10px 0 10px 0;}
-.sub_main_mypage_box {text-align: center;
-}
-.sub_main_mypage_box_text {border: 1px solid #035FC8;
-                           height: 150px;
-                           padding-top: 30px;
-                           box-sizing: border-box;
-}
-.sub_main_mypage_box_text img {width: 40px;
-                               padding-bottom: 20px;
-}
-.sub_main_mypage_box_text h2 {font-size: 20px;
-                              font-weight: 400;
-}
 
-.sub_main_mypage_box_bg_desktop {display: none;}
-.sub_main_mypage_box_bg_mobile {display: block;}
-
-@media(min-width:1200px){
-    .sub_main_mypage_bg {padding: 0}
-    .sub_main_mypage_box_bg_desktop {display: block;}
-    .sub_main_mypage_box_bg_mobile {display: none;}
-    .sub_main_mypage_layout h2 {font-size: 25px;
-                                font-weight: 500;
-
-    }
-    .sub_main_mypage_layout {height: 250px;
-    }
-    .sub_main_mypage_box_text {height: 220px;
-                               padding-top: 60px;
-    }
-    .sub_main_mypage_box_text img {padding-bottom: 15px;
-                                   width: 50px;
-    }
-    .sub_main_mypage_box_text h2 {font-size: 30px;
-                                  font-weight: 400;
-    }
+.page_idps_box_moneybox_view {padding: 60px 100px 100px 100px;
+}
+.page_idps_box_moneybox_view_section {height: 800px;
+                                      border: 1px solid #333;
 }
 
 
 
+/*-----------------이용약관------------------*/
 
 
+.page_scroll {border: 1px solid #333;
+              margin-top: 70px;
+              overflow-y: scroll;
+}
+.page_scroll_text {padding: 30px;
+                   height: 250px;
+                   font-size: 14px;
+                   line-height: 20px;
+}
 
+.page_idps_box_agree_icon {padding-top: 30px}
+
+.section {
+    background-position:top center;
+    width:100%;
+    height:auto;
+
+}
+.section01 {
+    margin-top:100px;
+    margin-bottom:100px;
+    background-image:url(../img/section1.png);
+    height:2145px;
+}
+.section02 {
+    margin-top:100px;
+    margin-bottom:100px;
+    background-image:url(../img/section2.png);
+    height:3050px;
+}
+.section03 {
+    margin-top:100px;
+    margin-bottom:100px;
+    background-image:url(../img/section3.png);
+    height:2266px;
+}
 
