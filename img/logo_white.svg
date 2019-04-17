@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="145px" height="28px" viewBox="0 0 145 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>logo/test_logo copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="logo/test_logo-copy-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <text id="천국의-계단" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="15" font-weight="bold" line-spacing="15" letter-spacing="-0.4875" fill="#035FC8">
+            <tspan x="29" y="16">천국의 계단</tspan>
+        </text>
+        <text id="장례토탈서비스-후불제상조" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="10" font-weight="normal" line-spacing="12" letter-spacing="-0.5416666" fill="#035FC8">
+            <tspan x="39" y="27">장례토탈서비스 후불제상조</tspan>
+        </text>
+        <circle id="Oval" fill="#035FC8" cx="10.5" cy="16.5" r="2.5"></circle>
+        <rect id="Rectangle" stroke="#035FC8" x="0.5" y="0.5" width="4" height="7"></rect>
+        <path d="M23.7777778,18.1935484 L18.8,18.1935484 L14.5333333,18.1935484 L14.5333333,10.0645161 L6,10.0645161 L6,6 L18.8,6 L18.8,10.0645161 L18.8,14.1290323 L28.0444444,14.1290323 L28.0444444,18.1935484 L28.0444444,22.9354839 L38,22.9354839 L38,27 L28.0444444,27 L23.7777778,27 L23.7777778,18.1935484 Z" id="Combined-Shape" fill="#035FC8"></path>
+        <path d="M8,21 L23,21 C23,24.3137085 19.6421356,27 15.5,27 C11.3578644,27 8,24.3137085 8,21 Z" id="Combined-Shape" fill="#035FC8"></path>
+    </g>
+</svg>

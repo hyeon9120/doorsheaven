@@ -1,245 +1,283 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 
 
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="../css/base.css">
-        <link rel="stylesheet" href="../css/base_spear.css">
-        <link rel="stylesheet" href="../css/style.css">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900" rel="stylesheet">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/base_spear.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="../js/js.js"></script>
 
-    </head>
+</head>
 
-    <body>
-
-
-<!---------플로팅 메뉴--------->
-        <div class="f_menu">
-            <div class="call clearfix">
-                <div class="call_icon fl">
-                    <img src="../img/icon/headset.svg" alt="해드폰아이콘">
-                </div>
-                <div class="call_text fr">
-                    <ul>
-                        <li><h2>1600 - 8779</h2></li>
-                        <li><p>24시간 문의 가능</p></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="mas clearfix">
-                <div class="mas_icon fl">
-                    <img src="../img/icon/masicon.svg">
-                </div>
-                <div class="mas_text fr">
-                    <ul>
-                        <li><h2>실시간 상담</h2></li>
-                        <li><img class="live_on" src="../img/icon/on.png" alt="메세지아이콘"></li>
-                            <!----실시간 상담 온/오프--->
-                            <!--<img class="live_off" src="../img/icon/OFF.png">-->
-                    </ul>
-                </div>
-            </div>
-            <a href="./price.html" class="btn_lg btn_orange">맞춤 견적 보기</a>
-        </div>
+<body>
 
 
-        <div class="f_menu_mobile">
+	<!---------플로팅 메뉴--------->
+	<div class="f_menu">
+		<div class="call clearfix">
+			<div class="call_icon fl">
+				<img src="../img/icon/headset.svg" alt="해드폰아이콘">
+			</div>
+			<div class="call_text fr">
+				<ul>
+					<li>
+						<h2>1600 - 8779</h2>
+					</li>
+					<li>
+						<p>24시간 문의 가능</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="mas clearfix">
+			<div class="mas_icon fl">
+				<img src="../img/icon/masicon.svg">
+			</div>
+			<div class="mas_text fr">
+				<ul>
+					<li>
+						<h2>실시간 상담</h2>
+					</li>
+					<li><img class="live_on" src="../img/icon/on.svg" alt="메세지아이콘"></li>
+					<!----실시간 상담 온/오프--->
+					<!--<img class="live_off" src="../img/icon/svg.png">-->
+				</ul>
+			</div>
+		</div>
+		<a href="./price.html" class="btn_lg btn_orange">맞춤 견적 보기</a>
+	</div>
+
+	<!----------메뉴바--------->
+
+	<div class="gnb">
+		<div class="nav_bg col-m-12 col-d-12 pd-0">
+			<div class="nav_center l-center pd-r-20 pd-l-20">
+				<div class="mobile_gnb clearfix">
+					<div class="mobile_gnb_logo fl">
+						<h1><a href="#"><img src="../img/mobile_logo.svg" alt="천국의계단 로고"></a></h1>
+					</div>
+					<div class="mobile_gnb_btn fr">
+						<a href="#"><img src="../img/hmb.png" alt="햄버거 버튼"></a>
+					</div>
+				</div>
+				<div class="desktop_gnb clearfix">
+					<div class="desk_gnb_logo fl">
+						<h1><a href="./main.html"><img src="../img/logo.svg" alt="천국의계단 로고"></a></h1>
+					</div>
+					<div class="desk_gnb_text fl">
+						<ul class="clearfix" id="nav">
+							<li class="layout"><a href="price.html">상품안내</a>
+							</li>
+							<li class="layout"><a href="#">장례정보</a>
+							</li>
+							<li class="layout"><a href="#">문의</a></li>
+						</ul>
+					</div>
+					<div class="desk_gnb_btn fr">
+						<ul>
+							<li><a href="./login.html">로그인</a></li>
+							<li class="all_sub"><a href="#"><img src="../img/hmb.png" alt="햄버거버튼"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="all_sub_menu" style="display: none;">
+				<div class="l-center all_sub_menu_layout clearfix">
+					<div class="all_sub_menu_01 fl">
+						<ul>
+							<li><a href="price.html">천국의 계단 상품</a></li>
+							<li><a href="price.html">맞춤 견적공유</a></li>
+						</ul>
+					</div>
+					<div class="all_sub_menu_02 fl">
+						<ul>
+							<li><a href="#">상례절차</a></li>
+							<li><a href="#">종교별 장례절차</a></li>
+							<li><a href="#">제례절차</a></li>
+							<li><a href="#">조문예절</a></li>
+						</ul>
+					</div>
+					<div class="all_sub_menu_03 fl">
+						<ul>
+							<li><a href="./login_listpage_01.html">공지사항</a></li>
+							<li><a href="./login_listpage_02.html">FAQ</a></li>
+							<li><a href="./login_listpage_03.html">1:1 문의</a></li>
+							<li><a href="./login_listpage_05.html">이용후기</a></li>
+							<li><a href="./login_listpage_sub_02.html">동영상 후기</a></li>
+							<li><a href="#">법인 회원 가입 신청</a></li>
+						</ul>
+					</div>
+					<div class="all_sub_menu_03 fr">
+						<ul>
+							<li><a href="./login_join.html">회원가입</a></li>
+							<li><a href="./login_mypage.html">마이페이지</a></li>
+							<li><a href="./login_mypage_01.html">회원정보</a></li>
+							<li><a href="./login_listpage_03.html">1:1 문의 내역</a></li>
+							<li><a href="./login_mypage_02.html">나의 장레 보관함</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
-        </div>
+	<!---------메인 구역--------->
+	<div class="main_bg">
 
-<!----------메뉴바--------->
-
-        <div class="gnb">
-            <div class="nav_bg col-m-12 col-d-12 pd-0">
-                <div class="nav_center l-center">
-                    <div class="mobile_gnb clearfix">
-                        <div class="mobile_gnb_logo fl">
-                            <h1><a href="#"><img src="../img/mobile_logo.png" alt="천국의계단 로고"></a></h1>
-                        </div>
-                        <div class="mobile_gnb_btn fr">
-                        <div class=""><img src="../img/hmb.png" alt="햄버거 버튼"></div>
-                        </div>
-                    </div>
-                    <div class="desktop_gnb clearfix">
-                        <div class="desk_gnb_logo fl">
-                            <h1><a href="./main.html"><img src="../img/logo.png" alt="천국의계단 로고"></a></h1>
-                        </div>
-                        <div class="desk_gnb_text fl">
-                            <ul>
-                                <li><a href="price.html">상품안내</a></li>
-                                <li><a href="#">장례정보</a></li>
-                                <li><a href="#">문의</a></li>
-                            </ul>
-                        </div>
-                        <div class="desk_gnb_btn fr">
-                            <ul>
-                                <li><a href="./login.html">로그인</a></li>
-                                <li><a href="#"><img src="../img/hmb.png" alt="햄버거버튼"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-            <!---------메인 구역--------->
-            <div class="main_bg">
-
-                <div class="videoobg">
-                    <video id="video" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
-                        <source src="../video/v01.mp4">
-                    </video>
-                </div>
-                <div class="main_bg_text col-m-12 col-d-12 pd-0">
-                    <h2 class="pd-b-20">남은 유가족의 이 장례가 추억이라<br>표현될 정도로 "마음이 참 편안했다"</h2>
-                    <h3 class="pd-b-40">이혜정 <span>뮤지컬배우</span></h3>
-                    <ul>
-                        <li><a href="#" class="btn">동영상 보기</a></li>
-                        <li><a href="#" class="btn btn_white">동영상 후기</a></li>
-                        <li><a href="#" class="btn btn_white">이용 후기</a></li>
-                    </ul>
-                </div>
-            </div>
-            <!---------컨텐츠 구역--------->
-            <div class="content">
-            <!---------징례활동 구역--------->
-                <div class="section_01 pd-0 ">
-                    <div class="section_01_text l-center pd-t-100 pd-b-100 pd-r-20 pd-l-20">
-                        <h2 class="section_h2">
-                            천국의 계단 장례 활동
-                        </h2>
-                        <h2 class="section_h3">
-                            늘 준비 되어 있는 장례서비스로 당신의<br>
-                            슬픔과 함꼐 나누겠습니다.
-                        </h2>
-                        <p class="section_p">
-                            주기적인 장례 교육을 통해 항상 준비 되어 잇는 서비스로 유가족과 함께 하겠습니다.
-                        </p>
-                        <a href="./section01.html" class="btn">자세히 보기</a>
-                    </div>
-                    <div class="section_01_img clearfix">
-                        <div class="section_01_img01 fl">
-                        </div>
-                        <div class="section_01_img02 fl">
-                        </div>
-                    </div>
-                </div>
+		<div class="videoobg">
+			<video id="video" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+				<source src="../video/v01.mp4">
+			</video>
+		</div>
+		<div class="main_bg_text">
+			<p>동영상 후기</p>
+			<h2 class="pd-b-20">남은 유가족의 이 장례가 추억이라<br>표현될 정도로 "마음이 참 편안했다"</h2>
+			<h3 class="pd-b-40">이혜정 <span>뮤지컬배우</span></h3>
+			<ul>
+				<li><a href="#" class="btn">동영상 보기</a></li>
+				<li><a href="./login_listpage_sub_02.html" class="btn btn_white">동영상 후기</a></li>
+				<li><a href="./login_listpage_05.html" class="btn btn_white">이용 후기</a></li>
+			</ul>
+		</div>
+	</div>
+	<!---------컨텐츠 구역--------->
+	<div class="content">
+		<!---------징례활동 구역--------->
+		<div class="section_01 pd-0 ">
+			<div class="section_01_text l-center pd-t-100 pd-b-100 pd-r-20 pd-l-20">
+				<h2 class="section_h2">
+					천국의 계단 장례 활동
+				</h2>
+				<h2 class="section_h3">
+					늘 준비 되어 있는 장례서비스로 당신의<br>
+					슬픔과 함꼐 나누겠습니다.
+				</h2>
+				<p class="section_p">
+					주기적인 장례 교육을 통해 항상 준비 되어 잇는 서비스로 유가족과 함께 하겠습니다.
+				</p>
+				<a href="./main_sub_01.html" class="btn">자세히 보기</a>
+			</div>
+			<div class="section_01_img clearfix">
+				<div class="section_01_img01 fl">
+				</div>
+				<div class="section_01_img02 fl">
+				</div>
+			</div>
+		</div>
 
 
 
-            <!---------나의 장례보관함 구역--------->
-                <div class="section_02 clearfix">
-                    <div class="section_02_img col-m-12 col-d-6 pd-0">
-                        <img src="../img/content_03.png" alt="장례보관함 이미지">
-                    </div>
-                    <div class="section_02_text col-m-12 col-d-6 pd-0 clearfix">
-                         <h2 class="section_h2">
-                            나의 장례 보관함
-                        </h2>
-                        <h3 class="section_h3">
-                            보관함에서 사진,동영상,비용,부조금 등<br>
-                            장례 내역까지 관리 할 수 있습니다.
-                        </h3>
-                        <p class="section_p">
-                            고인의 마지막을 보고 싶을때 마다<br>
-                            다시 확인하실 수 있도록 도와드리겠습니다.
-                        </p>
-                        <a href="./section02.html" class="btn">자세히 보기</a>
-                    </div>
-               </div>
+		<!---------나의 장례보관함 구역--------->
+		<div class="section_02 clearfix">
+			<div class="section_02_img col-m-12 col-d-6 pd-0">
+				<img src="../img/content_03.png" alt="장례보관함 이미지">
+			</div>
+			<div class="section_02_text col-m-12 col-d-6 pd-0 clearfix">
+				<h2 class="section_h2">
+					나의 장례 보관함
+				</h2>
+				<h3 class="section_h3">
+					보관함에서 사진,동영상,비용,부조금 등<br>
+					장례 내역까지 관리 할 수 있습니다.
+				</h3>
+				<p class="section_p">
+					고인의 마지막을 보고 싶을때 마다<br>
+					다시 확인하실 수 있도록 도와드리겠습니다.
+				</p>
+				<a href="./main_sub_02.html" class="btn">자세히 보기</a>
+			</div>
+		</div>
 
-            <!---------더존 구역--------->
-            <div class="section_03 clearfix">
-                <div class="section_03_text col-m-12 col-d-6 pd-0 clearfix">
-                    <h2 class="section_h2">
-                        신뢰할 수 있는 천국의 계단
-                    </h2>
-                    <h3 class="section_h3">
-                        더존의 기업 세무/회계 법인 회원이<br>
-                        함꼐하는 상조
-                    </h3>
-                    <p class="section_p">
-                        30만 회원이 선택한 믿고 맡길 수 있는<br>
-                        후불제 상조회사, 천국의 계단입니다.
-                    </p>
-                    <a href="section03.html" class="btn">자세히 보기</a>
-                </div>
-                <div class="section_03_img col-m-12 col-d-6 pd-0">
-                    <img src="../img/content_04.png" alt="신뢰할 수 있는 천국의계단이미지">
-                </div>
-            </div>
-
-
-            <!---------맞춤 견적 구역--------->
-            <div class="section_04 clearfix">
-                <div class="section_04_img col-m-12 col-d-6 pd-0">
-                    <img src="../img/content_05.png" alt="견적예시이미지">
-                </div>
-                <div class="section_04_text col-m-12 col-d-6 pd-0 clearfix">
-                     <h2 class="section_h2">
-                        맞춤 견적&공유
-                    </h2>
-                    <h3 class="section_h3">
-                        원하시는 서비스를 자유롭게 설계와<br>
-                        공유 하실 수 있습니다.
-                    </h3>
-                    <p class="section_p">
-                        부담 없는 맞춤 견적 및 공유 서비스로<br>
-                        천국의 계단과 함께 하실 수 있습니다..
-                    </p>
-                    <a href="price.html" class="btn">자세히 보기</a>
-                </div>
-            </div>
-     </div>
-
-            <div class="footer">
-                <div class="footer_bg">
-                    <div class="footer_text l-center">
-                        <ul class="clearfix">
-                            <li><a href="#">천국의계단 소개</a></li>
-                            <li><a href="#">후불제 상조 소개</a></li>
-                            <li><a href="#">서비스 소개</a></li>
-                            <li><a href="#">이용약관</a></li>
-                            <li><a href="#">개인정보취급방침</a></li>
-                            <li><a href="#">제휴문의</a>제휴문의</li>
-                            <li><a href="#">대표전화 <span>1600-8779</span></a></li>
-                        </ul>
-                        <div class="footer_text_h2">
-                            <h2>
-                                후불제상조 천국의계단  |  대표 : 정문섭  |  사업자번호 : 000-000-0000  |  Tel : 02-3421-1009  |   HP : 010-5413-0435<br>
-                                개인정보책임자 : 정문섭 |  주소 : 서울시 중랑구 신내동 669 |  Copyright (c) 후불제상조 천국의계단. All Rights Reserved .
-                            </h2>
-                        </div>
-                    </div>
-                    <div class="footer_text_mobile l-center">
-                        <ul class="line_01">
-                            <li><a href="#">천국의계단 소개</a></li>
-                            <li><a href="#">후불제 상조 소개</a></li>
-                            <li><a href="#">서비스 소개</a></li>
-                        </ul>
-                        <ul class="line_02">
-                            <li><a href="#">이용약관</a></li>
-                            <li><a href="#">개인정보취급방침</a></li>
-                            <li><a href="#">개인정보취급방침</a></li>
-                        </ul>
-                        <h2>대표전화 <span>1600-8779</span></h2>
-                        <div class="footer_text_h2_mobile">
-                            <h3>
-                                후불제상조 천국의계단  |  대표 : 정문섭<br>사업자번호 : 000-000-0000<br>Tel : 02-3421-1009  |   HP : 010-5413-0435<br>
-                                개인정보책임자 : 정문섭 |  주소 : 서울시 중랑구 신내동 669<br>Copyright (c) 후불제상조 천국의계단. All Rights Reserved .
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
+		<!---------더존 구역--------->
+		<div class="section_03 clearfix">
+			<div class="section_03_text col-m-12 col-d-6 pd-0 clearfix">
+				<h2 class="section_h2">
+					신뢰할 수 있는 천국의 계단
+				</h2>
+				<h3 class="section_h3">
+					더존의 기업 세무/회계 법인 회원이<br>
+					함꼐하는 상조
+				</h3>
+				<p class="section_p">
+					30만 회원이 선택한 믿고 맡길 수 있는<br>
+					후불제 상조회사, 천국의 계단입니다.
+				</p>
+				<a href="./main_sub_03.html" class="btn">자세히 보기</a>
+			</div>
+			<div class="section_03_img col-m-12 col-d-6 pd-0">
+				<img src="../img/content_04.png" alt="신뢰할 수 있는 천국의계단이미지">
+			</div>
+		</div>
 
 
-    </body>
+		<!---------맞춤 견적 구역--------->
+		<div class="section_04 clearfix">
+			<div class="section_04_img col-m-12 col-d-6 pd-0">
+				<img src="../img/content_05.png" alt="견적예시이미지">
+			</div>
+			<div class="section_04_text col-m-12 col-d-6 pd-0 clearfix">
+				<h2 class="section_h2">
+					맞춤 견적&공유
+				</h2>
+				<h3 class="section_h3">
+					원하시는 서비스를 자유롭게 설계와<br>
+					공유 하실 수 있습니다.
+				</h3>
+				<p class="section_p">
+					부담 없는 맞춤 견적 및 공유 서비스로<br>
+					천국의 계단과 함께 하실 수 있습니다..
+				</p>
+				<a href="price.html" class="btn">자세히 보기</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="footer_bg">
+			<div class="footer_text l-center">
+				<ul class="clearfix">
+					<li><a href="./main_sub_04.html">천국의계단 소개</a></li>
+					<li><a href="./main_sub_05.html">후불제 상조 소개</a></li>
+					<li><a href="#">서비스 소개</a></li>
+					<li><a href="#">이용약관</a></li>
+					<li><a href="#">개인정보취급방침</a></li>
+					<li><a href="#">제휴문의</a>제휴문의</li>
+					<li><a href="#">대표전화 <span>1600-8779</span></a></li>
+				</ul>
+				<div class="footer_text_h2">
+					<h2>
+						후불제상조 천국의계단 | 대표 : 정문섭 | 사업자번호 : 000-000-0000 | Tel : 02-3421-1009 | HP : 010-5413-0435<br>
+						개인정보책임자 : 정문섭 | 주소 : 서울시 중랑구 신내동 669 | Copyright (c) 후불제상조 천국의계단. All Rights Reserved .
+					</h2>
+				</div>
+			</div>
+			<div class="footer_text_mobile l-center">
+				<ul class="line_01">
+					<li><a href="./main_sub_04.html">천국의계단 소개</a></li>
+					<li><a href="./main_sub_05.html">후불제 상조 소개</a></li>
+					<li><a href="#">서비스 소개</a></li>
+				</ul>
+				<ul class="line_02">
+					<li><a href="#">이용약관</a></li>
+					<li><a href="#">개인정보취급방침</a></li>
+					<li><a href="#">개인정보취급방침</a></li>
+				</ul>
+				<h2>대표전화 <span>1600-8779</span></h2>
+				<div class="footer_text_h2_mobile">
+					<h3>
+						후불제상조 천국의계단 | 대표 : 정문섭<br>사업자번호 : 000-000-0000<br>Tel : 02-3421-1009 | HP : 010-5413-0435<br>
+						개인정보책임자 : 정문섭 | 주소 : 서울시 중랑구 신내동 669<br>Copyright (c) 후불제상조 천국의계단. All Rights Reserved .
+					</h3>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
-</html>
+</body></html>

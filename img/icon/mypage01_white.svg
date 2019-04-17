@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/mypage02</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon/mypage02" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="male" transform="translate(3.000000, 3.000000)" stroke="#FFFFFF" stroke-width="3">
+            <path d="M28.0659375,30.4722321 C26.9555022,30.2955469 26.9301897,27.2421763 26.9301897,27.2421763 C26.9301897,27.2421763 30.1930915,24.0120201 30.9042522,19.6684152 C32.8172545,19.6684152 33.9989062,15.0505915 32.0855022,13.4258705 C32.1656585,11.7155692 34.5445312,0 22.5,0 C10.4553683,0 12.8345424,11.7155692 12.9141964,13.4258705 C11.0009933,15.0505915 12.1824442,19.6684152 14.0955469,19.6684152 C14.8066071,24.0120201 18.0696094,27.2421763 18.0696094,27.2421763 C18.0696094,27.2421763 18.0442969,30.2955469 16.9338616,30.4722321 C13.3569643,31.0413616 0,36.9327455 0,43.3928571 L22.5,43.3928571 L45,43.3928571 C45,36.9327455 31.6429353,31.0413616 28.0659375,30.4722321 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

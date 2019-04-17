@@ -149,7 +149,7 @@ input:focus {outline: none;}
                pading_bottom
 ===================================== */
 
-
+.pd-b-5 {padding-bottom: 5px}
 .pd-b-10 {padding-bottom: 10px}
 .pd-b-20 {padding-bottom: 20px}
 .pd-b-30 {padding-bottom: 30px}
@@ -292,11 +292,12 @@ input:focus {outline: none;}
 ===================================== */
 .c_red {color: #FF0000;}
 .c_main {color: #035FC8;}
-.f_bold {font-weight: 500;}
+.f_bold {font-weight: 400; !important}
 
-input[type=radio],
-input[type=checkbox] {
-	width:18px;
-	height:18px;
-}
+ .txt_line {
+      overflow:hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;
+  }
+
 

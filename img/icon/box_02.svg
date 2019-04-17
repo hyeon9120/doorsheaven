@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>box_02</title>
+    <desc>Created with Sketch.</desc>
+    <g id="box_02" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="picture" transform="translate(3.000000, 9.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Group" transform="translate(4.000000, 4.000000)">
+                <path d="M0,34 L47,34 L47,0 L0,0 L0,34 Z M45,32 L3.6,32 L18,19.3 L28.3,29.6 C28.7,30 29.3,30 29.7,29.6 C30.1,29.2 30.1,28.6 29.7,28.2 L24.9,23.4 L34.1,13.3 L45,23.3 L45,32 Z M2,2 L45,2 L45,20.7 L34.7,11.2 C34.5,11 34.2,10.9 34,11 C33.7,11 33.5,11.1 33.3,11.3 L23.5,22 L18.8,17.3 C18.4,16.9 17.8,16.9 17.4,17.3 L2,30.7 L2,2 Z" id="Shape"></path>
+                <path d="M10,5 C6.9,5 4.4,7.5 4.4,10.6 C4.4,13.7 6.9,16.2 10,16.2 C13.1,16.2 15.6,13.7 15.6,10.6 C15.6,7.5 13.1,5 10,5 Z M10,14.1 C8,14.1 6.4,12.5 6.4,10.5 C6.4,8.5 8,7 10,7 C12,7 13.6,8.6 13.6,10.6 C13.6,12.6 12,14.1 10,14.1 Z" id="Shape"></path>
+            </g>
+            <path d="M45.3,0 L10.7,0 L7.7,0 L0.3,0 L0,0 L0,42 L55,42 L55,0 L48.4,0 L45.3,0 Z M53,40 L2,40 L2,2 L8,2 L48,2 L53,2 L53,40 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

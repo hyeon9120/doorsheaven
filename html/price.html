@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
+
 <head>
 	<meta charset="utf-8">
 
@@ -9,6 +10,7 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="../js/js.js"></script>
 </head>
 
 <body>
@@ -52,10 +54,10 @@
 
 	<div class="gnb">
             <div class="nav_bg col-m-12 col-d-12 pd-0">
-                <div class="nav_center l-center">
+                <div class="nav_center l-center pd-r-20 pd-l-20">
                     <div class="mobile_gnb clearfix">
                         <div class="mobile_gnb_logo fl">
-                            <h1><a href="#"><img src="../img/mobile_logo.png" alt="천국의계단 로고"></a></h1>
+                            <h1><a href="#"><img src="../img/mobile_logo.svg" alt="천국의계단 로고"></a></h1>
                         </div>
                         <div class="mobile_gnb_btn fr">
                         <div class=""><img src="../img/hmb.png" alt="햄버거 버튼"></div>
@@ -63,19 +65,58 @@
                     </div>
                     <div class="desktop_gnb clearfix">
                         <div class="desk_gnb_logo fl">
-                            <h1><a href="./main.html"><img src="../img/logo.png" alt="천국의계단 로고"></a></h1>
+                            <h1><a href="./main.html"><img src="../img/logo.svg" alt="천국의계단 로고"></a></h1>
                         </div>
                         <div class="desk_gnb_text fl">
-                            <ul>
-                                <li><a href="price.html">상품안내</a></li>
-                                <li><a href="#">장례정보</a></li>
-                                <li><a href="#">문의</a></li>
+                            <ul class="clearfix" id="nav">
+                                <li class="layout"><a href="price.html">상품안내</a>
+                                </li>
+                                <li class="layout"><a href="#">장례정보</a>
+                                </li>
+                                <li class="layout"><a href="#">문의</a></li>
                             </ul>
                         </div>
                         <div class="desk_gnb_btn fr">
                             <ul>
                                 <li><a href="./login.html">로그인</a></li>
-                                <li><a href="#"><img src="../img/hmb.png" alt="햄버거버튼"></a></li>
+                                <li class="all_sub"><a href="#"><img src="../img/hmb.png" alt="햄버거버튼"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="all_sub_menu" style="display: none;">
+                    <div class="l-center all_sub_menu_layout clearfix">
+                        <div class="all_sub_menu_01 fl">
+                            <ul>
+                                <li><a href="price.html">천국의 계단 상품</a></li>
+                                <li><a href="price.html">맞춤 견적공유</a></li>
+                            </ul>
+                        </div>
+                        <div class="all_sub_menu_02 fl">
+                            <ul>
+                                <li><a href="#">상례절차</a></li>
+                                <li><a href="#">종교별 장례절차</a></li>
+                                <li><a href="#">제례절차</a></li>
+                                <li><a href="#">조문예절</a></li>
+                            </ul>
+                        </div>
+                        <div class="all_sub_menu_03 fl">
+                            <ul>
+                                <li><a href="./login_listpage_01.html">공지사항</a></li>
+                                <li><a href="./login_listpage_02.html">FAQ</a></li>
+                                <li><a href="./login_listpage_03.html">1:1 문의</a></li>
+                                <li><a href="./login_listpage_05.html">이용후기</a></li>
+                                <li><a href="./login_listpage_sub_02.html">동영상 후기</a></li>
+                                <li><a href="#">법인 회원 가입 신청</a></li>
+                            </ul>
+                        </div>
+                        <div class="all_sub_menu_03 fr">
+                            <ul>
+                                <li><a href="./login_join.html">회원가입</a></li>
+                                <li><a href="./login_mypage.html">마이페이지</a></li>
+                                <li><a href="./login_mypage_01.html">회원정보</a></li>
+                                <li><a href="./login_listpage_03.html">1:1 문의 내역</a></li>
+                                <li><a href="./login_mypage_02.html">나의 장레 보관함</a></li>
                             </ul>
                         </div>
                     </div>

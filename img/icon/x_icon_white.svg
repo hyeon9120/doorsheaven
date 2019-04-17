@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/xicon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="아이콘" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="popup/견적" transform="translate(-575.000000, -19.000000)" fill="#FFFFFF">
+            <g id="icon/xicon" transform="translate(573.000000, 17.000000)">
+                <rect id="Rectangle" transform="translate(13.500000, 13.500000) rotate(-315.000000) translate(-13.500000, -13.500000) " x="0" y="12" width="27" height="3"></rect>
+                <rect id="Rectangle-Copy" transform="translate(13.500000, 13.500000) rotate(-45.000000) translate(-13.500000, -13.500000) " x="0" y="12" width="27" height="3"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
