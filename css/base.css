@@ -1,5 +1,6 @@
 @import url("sub.css");
 
+
 /* =====================================
               CSS RESET
 ===================================== */
@@ -291,8 +292,13 @@ input:focus {outline: none;}
            color
 ===================================== */
 .c_red {color: #FF0000;}
-.c_main {color: #035FC8;}
-.f_bold {font-weight: 400; !important}
+.c_main {color: #035FC8 !important;}
+.c_fff {color: #fff !important;}
+.c_yellow {color: #FFD213 !important;}
+.c_black {color: #333 !important;}
+
+.f_bold {font-weight: 400 !important;}
+.t_center {text-align: center !important;}
 
  .txt_line {
       overflow:hidden;

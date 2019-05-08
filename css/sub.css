@@ -31,7 +31,7 @@
 }
 .double_line {
 	padding:12px 0;
-	line-height:20px !important;
+	line-height:18px !important;
 }
 .product_box {
 	float: left;
@@ -157,6 +157,9 @@
 	border:1px solid #EAEAEA;
 	border-bottom:0 none;
 }
+.price_step02 .step_btn {
+	position:relative;
+}
 .price_step02 .step_btn > a {
 	display:block;
 	color:#035FC8;
@@ -166,11 +169,26 @@
 	background-image:url(../img/icon/icon_arrow_down.png);
 	background-repeat:no-repeat;
 	background-position:96% center;
+	transition:all .1s;
+}
+.price_step02 .step_btn > a:after{
+	content:"";
+	background-image:url(../img/icon/bottom_arrow_blue_down.svg);
+	background-size:16px 16px;
+	display:block;
+	width:16px;
+	height:16px;
+	position:absolute;
+	top:15px;
+	right:16px;
 }
 .price_step02 .step_btn.on > a {
 	background-image:url(../img/icon/icon_arrow_up.png);
 	background-color:#035FC8;
 	color:#fff;
+}
+.price_step02 .step_btn.on > a:after{
+	background-image:url(../img/icon/bottom_arrow_white_top.svg);
 }
 .prite_title {
 	font-size:24px;
@@ -181,6 +199,8 @@
 	padding:10px 0 10px 20px;
 }
 .step_detail {
+	display:none;
+	padding-bottom:15px;
 }
 .step_detail li {
 	overflow:hidden;
@@ -342,4 +362,115 @@
 	font-size:32px;
 	font-weight:600;
 	color:#fff;
+}
+.payment_title {
+	padding:40px 0 20px;
+	font-size:24px;
+	font-weight:bold;
+	color:#888;
+}
+.payment_btm {
+	background-color:#f7f6f5;
+	margin-top:40px;
+}
+.payment_wrapper {
+	position:relative;
+	min-height:320px;
+}
+.payment_box {
+	padding:10px 0;
+}
+.payment_left {
+	float:left;
+	width:960px;
+}
+.payment_right {
+	position:absolute;
+	right:0;
+	bottom:60px;
+}
+.price_btn_box a {
+	display:block;
+	width:160px;
+	margin:5px 0;
+}
+.payment_desc {
+	font-size:13px;
+	color:#999;
+	line-height:1.4;
+	padding:20px 0 80px;
+}
+.share_box {
+	float:right;
+	padding:10px;
+}
+.share_title {
+	height:20px;
+	background-image:url(../img/icon/share_icon.svg);
+	background-size:17px 17px;
+	padding-left:20px;
+	background-repeat:no-repeat;
+	overflow:hidden;
+	color:#035FC8;
+}
+.share_kakao a {
+	display:block;
+	background-image:url(../img/icon/kkao_icon.svg);
+	background-size:cover;
+	text-indent:-3000em;
+	overflow:hidden;
+	width:40px;
+	height:40px;
+	margin:10px 0 10px 10px;
+}
+.share_sms a {
+	display:block;
+	background-image:url(../img/icon/sms_icon.svg);
+	background-size:cover;
+	text-indent:-3000em;
+	overflow:hidden;
+	width:40px;
+	height:40px;
+	margin:10px 0 10px 10px;
+}
+.payment_list_title {
+	font-size:24px;
+	font-weight:bold;
+	color:#035FC8;
+	padding:10px 0;
+}
+.payment_list {
+
+}
+.payment_list li {
+	overflow:hidden;
+
+}
+.payment_list_name {
+	float:left;
+	font-size:18px;
+}
+.payment_list_price {
+	float:right;
+	font-size:18px;
+}
+.payment_bottom01 {
+	overflow:hidden;
+	padding:20px 0;
+	margin-top:20px;
+	border-top:1px solid #dad9d8;
+	font-size:24px;
+	font-weight:bold;
+}
+.payment_bottom02 {
+	overflow:hidden;
+	font-size:24px;
+	font-weight:bold;
+}
+.payment_bottom_name {
+	float:left;
+	color:#035FC8;
+}
+.payment_bottom_price {
+	float:right;
 }

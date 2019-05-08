@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 25 25" style="enable-background:new 0 0 25 25;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#035FC8;}
+	.st1{fill:none;}
+	.st2{fill:#FFFFFF;}
+</style>
+<circle class="st0" cx="12.5" cy="12.5" r="12"/>
+<title>box_03</title>
+<desc>Created with Sketch.</desc>
+<g id="box_03">
+	<g>
+		<path class="st1" d="M9.3,18.1C9.4,18,9.4,18,9.5,18l-2.8,1.4L9.3,18.1L9.3,18.1z"/>
+		<polygon class="st1" points="11.6,15.9 9.5,18 11.6,15.9 		"/>
+		<polygon class="st1" points="8.1,17.4 7.6,16.9 7.1,18 		"/>
+
+			<rect x="7.1" y="12.1" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -5.3576 12.4345)" class="st1" width="10.4" height="1.2"/>
+		<path class="st1" d="M16.4,7.8l0.8,0.8l1.2-1.2c0.2-0.2,0.2-0.6,0-0.8c-0.2-0.2-0.6-0.2-0.8,0L16.4,7.8z"/>
+		<path class="st2" d="M16.8,5.8L10.6,12l-3.8,3.9l-1.5,3.1c-0.1,0.2-0.1,0.3,0,0.5c0,0,0,0.1,0.1,0.1c0,0,0,0,0,0
+			c0.2,0.2,0.4,0.2,0.6,0.1c0.2-0.1,0.7-0.3,0.7-0.3L9.5,18l2.1-2.1l0,0l4.8-4.8l0,0l2.9-2.9c0.3-0.3,0.5-0.8,0.5-1.2
+			c0-0.5-0.2-0.9-0.5-1.2C18.6,5.1,17.5,5.1,16.8,5.8z M8.1,17.4L7.1,18l0.5-1.1L8.1,17.4z M9.1,16.8l-0.8-0.8l7.4-7.4l0.8,0.8
+			L9.1,16.8z M18.4,6.6c0.2,0.2,0.2,0.6,0,0.8l-1.2,1.2l-0.8-0.8l1.2-1.2C17.8,6.3,18.2,6.3,18.4,6.6z"/>
+	</g>
+</g>
+</svg>

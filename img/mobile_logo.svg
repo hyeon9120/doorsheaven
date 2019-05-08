@@ -4,12 +4,11 @@
     <title>mobile_logo</title>
     <desc>Created with Sketch.</desc>
     <g id="mobile_logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <text id="천국의-계단" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="15" font-weight="bold" line-spacing="15" letter-spacing="-0.4875" fill="#FFFFFF">
+        <text id="천국의-계단" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="15" font-weight="bold" line-spacing="15" letter-spacing="-0.4875" fill="#035FC8">
             <tspan x="29" y="16">천국의 계단</tspan>
         </text>
-        <text id="장례토탈서비스-후불제상조" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="10" font-weight="normal" line-spacing="12" letter-spacing="-0.5416666">
-            <tspan x="39" y="27" fill="#035FC8">장례토탈서비스</tspan>
-            <tspan x="99.6083338" y="27" fill="#FFFFFF"> 후불제상조</tspan>
+        <text id="장례토탈서비스-후불제상조" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="10" font-weight="normal" line-spacing="12" letter-spacing="-0.5416666" fill="#035FC8">
+            <tspan x="39" y="27">장례토탈서비스 후불제상조</tspan>
         </text>
         <circle id="Oval" fill="#035FC8" cx="10.5" cy="16.5" r="2.5"></circle>
         <rect id="Rectangle" stroke="#035FC8" x="0.5" y="0.5" width="4" height="7"></rect>
